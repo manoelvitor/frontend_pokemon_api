@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Mestre Pokemon</title>
+
+    <style>
+
+        #poke1,#poke2,#poke3 {
+            display: inline;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div  style="margin: 30px;">
+    <nav>
+        <ul>
+            <a href="home.html"><li>Pokemons</li></a>          
+        </ul>
+    </nav>
+
+    <div id="poke1">
+        <img id="img1" width="100px">
+            
+    </div>
+
+    <div id="poke2">
+        <img id="img2" width="100px">
+            
+    </div>
+  
+    <div id="poke3">
+        <img id="img3" width="100px">
+            
+    </div>
+  
+  
+    <form method="POST">
+       
+        Nome:<br>
+        <input type="text" id="nome"> <br><br>
+        Idade:<br>
+        <input type="number" id="idade"> <br>
+        
+
+        <div>
+            <h3>Pokemon 1</h3>
+            <select id="selectPokemon1">
+                <option value=0> Selecione seu pokemon</option>      
+            </select>
+        </div>
+
+        <div>
+            <h3>Pokemon 2</h3>
+            <select id="selectPokemon2">
+                <option> Selecione seu pokemon</option>      
+            </select>  
+        </div>
+
+        <div>
+            <h3>Pokemon 3</h3>
+            <select id="selectPokemon3">
+                <option> Selecione seu pokemon</option>      
+            </select>  
+        </div>
+        <br>
+
+        <input type="button" id="enviar" value="Enviar"> <br>
+
+    </form>
+ 
+<script src="treinador.js"></script>
+</div>
+
+
+<div>
+    
+
+</div>
+
+
+
+</body>
+
+
+
+
+</html>
